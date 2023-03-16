@@ -1,0 +1,6 @@
+1) The while loop is not guaranteed to terminate because The conditions in the while loop depend on the dice rolls
+and are not guaranteed to be met,there is nothing that guarantees that the variable containing player money will ever go below zero or
+above two hundred, although it is higly likely.
+
+2) The maximum potential loss value is 36 while the maximum potential gain value is 35,
+ which makes it slightly more likely for the player to lose than win.

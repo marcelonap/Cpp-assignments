@@ -1,0 +1,16 @@
+1) int BigInt::subtract(digit difference[], const digit first[], const digit second[]);
+
+2) bool BigInt::lessThan( const digit first[], const digit second[])
+bool BigInt::greaterThan(const digit first[], const digit second[])
+bool BigInt::equalsTo( const digit first[], const digit second[])
+
+3) string BigInt::compare(digit comparison[], const digit first[], const digit second[])
+  if the result of the subtraction is negative, it means the second bigInt is greater than the first one,
+  if it's positive, the first bigInt is greater than the second one, and if it's zero
+  they are equal. It can return the result as a string.
+
+4) My solution does scale. We use name constants to allow our code to work with
+different values, hopefully any, instead of being limited to only one way of
+operating. By using a constant variable we can use a value in different parts of
+our code and manipulate it in the ways we need to without worrying about what the
+number itself is.
